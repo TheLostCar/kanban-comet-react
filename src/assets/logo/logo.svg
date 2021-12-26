@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25.8mm" height="8.5692mm" version="1.1" viewBox="0 0 37.80413 11.807886" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(-75 -50.398)">
+<text transform="scale(.26458)" fill="#000000" font-family="sans-serif" font-size="40px" style="line-height:1.25;shape-inside:url(#rect2157);white-space:pre" xml:space="preserve"/>
+<text transform="scale(-1,1)" x="-102.08444" y="137.79086" fill="#000000" font-family="Pristina" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="-102.08444" y="137.79086" font-family="Pristina" stroke-width=".26458"/></text>
+<text transform="scale(.26458)" fill="#000000" font-family="sans-serif" font-size="40px" style="line-height:1.25;shape-inside:url(#rect6221);white-space:pre" xml:space="preserve"/>
+<g stroke-width=".41078" aria-label="Comet">
+<path d="m86.24 61.666q0 0.39313-0.25674 0.64185-0.25674 0.24872-0.64988 0.24872h-3.2333q-0.39313 0-0.64185-0.24872-0.24872-0.24872-0.24872-0.64185v-10.775q0-0.39313 0.24872-0.64185 0.24872-0.24872 0.64185-0.24872h3.2333q0.39313 0 0.64988 0.24872 0.25674 0.24872 0.25674 0.64185v2.9204h-1.1232v-2.8241h-2.7921v10.583h2.7921v-3.0889h1.1232z"/>
+<path d="m92.546 61.65q0 0.90662-0.90662 0.90662h-2.6797q-0.89859 0-0.89859-0.90662v-5.9933q0-0.90662 0.89859-0.90662h2.6797q0.90662 0 0.90662 0.90662zm-1.0671-0.03209v-5.9291h-2.3508v5.9291z"/>
+<path d="m102.13 62.556h-1.0671v-6.8518l-2.3267 0.06418v6.7876h-1.0591v-6.8518l-2.3267 0.06418v6.7876h-1.0671v-7.8065h1.0671v0.21662q0.62581-0.08023 1.2516-0.16849 0.7622-0.09628 1.2596-0.09628 0.48941 0 0.72208 0.29686 0.67394-0.08826 1.3399-0.18453 0.87452-0.11232 1.3238-0.11232 0.88255 0 0.88255 0.87452z"/>
+<path d="m108.23 61.65q0 0.90662-0.89859 0.90662h-2.5674q-0.89859 0-0.89859-0.90662v-5.9933q0-0.90662 0.89859-0.90662h2.5674q0.89859 0 0.89859 0.90662v2.8081l-0.36104 0.37709h-2.9686v2.8241h2.2946v-1.4281h1.035zm-1.035-3.6586v-2.3508h-2.2946v2.3508z"/>
+<path d="m112.8 62.556h-1.5164q-0.89859 0-0.89859-0.90662v-5.9612h-0.93871v-0.93871h0.93871v-2.431h1.051v2.431h1.3639v0.93871h-1.3639v5.9291h1.3639z"/>
+</g>
+<g transform="scale(-1.0917 -.91604)" fill="#f60" stroke-width=".44596" aria-label="K ">
+<path d="m-68.703-54.62h-1.3326l-3.1443-6.55v6.55h-1.2107v-13.631h1.2107v6.1232l2.8569-6.1232h1.3152v0.07839l-3.0834 6.489z"/>
+</g>
+<text transform="scale(.26458)" fill="#000000" font-family="sans-serif" font-size="40px" style="line-height:1.25;shape-inside:url(#rect8697);white-space:pre" xml:space="preserve"/>
+</g>
+</svg>
