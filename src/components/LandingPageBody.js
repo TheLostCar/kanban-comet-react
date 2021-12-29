@@ -1,10 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { Jumbotron, Button, Container, Col, Row, Card, CardBody, Nav, NavItem, NavLink, TabContent, TabPane } from 'reactstrap';
 import { cloudConnect, workflowOrganization, patternOfPeople, kanbanWorkflow, programConfiguring, smallBoard, timeline, kanbanTeamwork } from '../assets/images'
 
 
 
 const Headline = () => {
+    const [email, setEmail] = useState('')
+    const inputEmail = useRef(null)
+    const updateEmail = function () {
+        console.log('livin')
+        setEmail(inputEmail.current.value)
+        // updates email value with every key press
+        // getStartedForm.attr('action', `signup.html?email=${this.value}`);
+    }
 
     return (
         <Jumbotron className="d-flex justify-content-center py" style={{ backgroundColor: "#f5f9fc" }}>
@@ -20,17 +29,18 @@ const Headline = () => {
                             putent delectus
                             delicata</p>
                         <form id="getStartedForm" action="signup.html" className="container">
-                            <Row className="align-items-center">
-                                <Col xs={12} sm={6} className="px-0">
-                                    <input id="getStartedEmailInput" className="align-middle d-block mx-auto mx-sm-0"
-                                        type="email" placeholder="Your Email" />
+                            <Row className="align-items-center justify-content-center">
+                                <Col xs={9} sm={6} className="px-0">
+                                    <input id="getStartedEmailInput" ref={inputEmail} className="align-middle d-block mx-auto mx-sm-0 w-100"
+                                        type="email" placeholder="Your Email" onKeyUp={updateEmail} />
                                 </Col>
 
-                                <Col xs={12} sm={6} className="pt-3 pt-sm-0">
-                                    <Button id="getStartedButton" className="text-nowrap d-block mx-auto mx-sm-4"
-                                        color="info"
-                                        type="button">Get
-                                        Started</Button>
+                                <Col xs={7} sm={6} className="pt-3 pt-sm-0">
+                                    <Link
+                                        to={{ pathname: '/signup', state: { email: email } }}
+                                        className='btn btn-info text-nowrap d-block'
+                                        style={{ minWidth: 'fit-content' }}>Get Started</Link>
+
                                 </Col>
 
                             </Row>
@@ -160,13 +170,13 @@ const CardTabsSection = () => {
     const LocalSectionComponent = ({ children }) => {
         return (
             <SectionComponent>
-                <Row xs={8} className="pl-auto row-content py-5">
+                <div className="pl-auto row-content py-5">
                     <Card>
                         <CardBody className="px-0">
                             {children}
                         </CardBody>
                     </Card>
-                </Row>
+                </div>
             </SectionComponent>
         )
     }
@@ -174,7 +184,7 @@ const CardTabsSection = () => {
 
     return (
         <LocalSectionComponent>
-            <Nav tabs className="nav-justified px-5">
+            <Nav tabs className="nav-justified px-1 px-sm-5 text-nowrap">
                 <NavItem>
                     <NavLink
                         active={activeTab == '1'}
@@ -194,12 +204,15 @@ const CardTabsSection = () => {
                     </NavLink>
                 </NavItem>
 
+
+
+
                 <NavItem>
                     <NavLink
                         active={activeTab == "3"}
                         onClick={() => { toggle("3") }}
                     >
-                        Assigned Tasks
+                        Assign Tasks
                     </NavLink>
                 </NavItem>
             </Nav>

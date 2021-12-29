@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Container } from 'reactstrap'
 import logo from '../assets/logo/logo.svg'
 
@@ -6,19 +7,12 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-light sticky-top">
             <Container fluid>
-                <a href="" className="navbar-brand"><img src={logo} height="35px" /></a>
+                <Link to=""><img src={logo} height="35px" /></Link>
 
-                <span className="navbar-text ml-auto">
-                    <a href="signup.html">
-                        <button className="btn btn-info text-white">
-                            Sign Up
-                        </button></a>
+                <span className="ml-auto">
+                    <Link to="/signup" className="btn btn-info text-white">Sign Up</Link>
                     {' '}
-                    <a href="login.html">
-                        <button className="btn btn-outline-dark">
-                            Login
-                        </button>
-                    </a>
+                    <Link to="/login" className="btn btn-outline-dark">Login</Link>
                 </span>
             </Container>
         </nav>

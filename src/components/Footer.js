@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
+import { Link } from 'react-router-dom'
 import logo from '../assets/logo/logo.svg'
 
 
@@ -10,23 +11,23 @@ const Footer = () => {
             <Container fluid>
                 <Row>
 
-                    <Col className="order-1" >
+                    <Col sm xs={12} className="order-1" >
                         <Row>
                             <Col xs={6} className="order-1 text-center">
                                 <h5>Get Started</h5>
                                 <ul className="list-unstyled">
-                                    <li><a href="/">Kanban</a></li>
-                                    <li><a href="/">Templates</a></li>
-                                    <li><a href="login.html">Log In</a></li>
-                                    <li><a href="signup.html">Sign Up</a></li>
+                                    <li><Link to="/">Kanban</Link></li>
+                                    <li><Link to="/">Templates</Link></li>
+                                    <li><Link to="/login">Log In</Link></li>
+                                    <li><Link to="/signup">Sign Up</Link></li>
                                 </ul>
                             </Col>
                             <Col xs={6} className="order-2 text-center">
                                 <h5>About Us</h5>
                                 <ul className="list-unstyled">
-                                    <li><a href="/">Company</a></li>
-                                    <li><a href="/">Terms Of Service</a></li>
-                                    <li><a href="/">Privacy Policy</a></li>
+                                    <li><Link to="/">Company</Link></li>
+                                    <li><Link to="/">Terms Of Service</Link></li>
+                                    <li><Link to="/">Privacy Policy</Link></li>
                                 </ul>
                             </Col>
                         </Row>
@@ -59,9 +60,9 @@ const Footer = () => {
                             <Col xs={6} className="order-4 text-center">
                                 <h5>Features</h5>
                                 <ul className="list-unstyled">
-                                    <li><a href="/">Board</a></li>
-                                    <li><a href="/">Timeline</a></li>
-                                    <li><a href="/">Task Properties</a></li>
+                                    <li><Link to="/">Board</Link></li>
+                                    <li><Link to="/">Timeline</Link></li>
+                                    <li><Link to="/">Task Properties</Link></li>
 
 
                                 </ul>
@@ -70,10 +71,10 @@ const Footer = () => {
                             <Col xs={6} className="order-5 text-center">
                                 <h5>Resources</h5>
                                 <ul className="list-unstyled">
-                                    <li><a href="/">Contact Us</a></li>
-                                    <li><a href="/">Guides</a></li>
-                                    <li><a href="/">Take a Tour</a></li>
-                                    <li><a href="/">FAQ</a></li>
+                                    <li><Link to="/">Contact Us</Link></li>
+                                    <li><Link to="/">Guides</Link></li>
+                                    <li><Link to="/">Take a Tour</Link></li>
+                                    <li><Link to="/">FAQ</Link></li>
                                 </ul>
                             </Col>
                         </Row>
