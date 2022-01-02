@@ -7,12 +7,9 @@ import { cloudConnect, workflowOrganization, patternOfPeople, kanbanWorkflow, pr
 
 const Headline = () => {
     const [email, setEmail] = useState('')
-    const inputEmail = useRef(null)
-    const updateEmail = function () {
-        console.log('livin')
-        setEmail(inputEmail.current.value)
-        // updates email value with every key press
-        // getStartedForm.attr('action', `signup.html?email=${this.value}`);
+
+    const updateEmail = function (e) {
+        setEmail(e.target.value)
     }
 
     return (
@@ -28,11 +25,11 @@ const Headline = () => {
                             ad
                             putent delectus
                             delicata</p>
-                        <form id="getStartedForm" action="signup.html" className="container">
+                        <Container>
                             <Row className="align-items-center justify-content-center">
                                 <Col xs={9} sm={6} className="px-0">
-                                    <input id="getStartedEmailInput" ref={inputEmail} className="align-middle d-block mx-auto mx-sm-0 w-100"
-                                        type="email" placeholder="Your Email" onKeyUp={updateEmail} />
+                                    <input className="align-middle d-block mx-auto mx-sm-0 w-100"
+                                        type="email" placeholder="Your Email" onChange={updateEmail} />
                                 </Col>
 
                                 <Col xs={7} sm={6} className="pt-3 pt-sm-0">
@@ -44,7 +41,7 @@ const Headline = () => {
                                 </Col>
 
                             </Row>
-                        </form>
+                        </Container>
 
                     </Col>
 

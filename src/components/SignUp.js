@@ -1,9 +1,8 @@
 import React from 'react'
-import { Card, CardHeader, CardBody, FormGroup, Label} from 'reactstrap';
+import { Card, CardHeader, CardBody, FormGroup, Label } from 'reactstrap';
 
 function SignUp({ location }) {
     const email = location.state ? location.state.email : '';
-    console.log(email)
 
     return (
         <div className="d-flex justify-content-center p-5 my-auto  col-">
@@ -28,7 +27,7 @@ function SignUp({ location }) {
                         </div>
                         <FormGroup className="form-group">
                             <Label for="signupEmailInput">Email address</Label>
-                            <input type="text" name="signupEmailInput" id="signupEmailInput" className="form-control"
+                            <input type="text" defaultValue={email} name="signupEmailInput" id="signupEmailInput" className="form-control"
                                 placeholder="john.smith@example.com" />
                         </FormGroup>
 
