@@ -6,3 +6,21 @@ body {
   background-color: #ffffffd3;
   box-shadow: 0 10px 12px #28282885; 
 }
+
+/* 
+  Remove the box shadow of the button when focusing with mouse but not keyboard
+  https://stackoverflow.com/a/65431687
+*/
+footer a.btn-social-icon:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+footer a {
+  color: #0034f4;
+  /* color: #020617; */
+}
+
+footer a.btn-social-icon:hover, footer a:hover {
+  color: #f60;
+  text-decoration: none;
+}

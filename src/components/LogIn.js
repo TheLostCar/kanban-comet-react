@@ -4,8 +4,8 @@ import { Card, CardHeader, CardBody, FormGroup, Label } from 'reactstrap';
 const LogIn = () => {
     return (
         <div className="d-flex justify-content-center p-5 my-auto col-">
-            <Card style="flex-basis: 536px;">
-                <CardHeader className="text-center text-white" style="background-color: #ff6600;">
+            <Card style={{ flexBasis: "536px" }}>
+                <CardHeader className="text-center text-white" style={{ backgroundColor: "#ff6600" }}>
                     Log In
                 </CardHeader>
 
@@ -14,8 +14,8 @@ const LogIn = () => {
 
 
                         <FormGroup>
-                            <Label for="exampleFormControlInput1">Email address</Label>
-                            <input type="text" className="form-control" id="exampleFormControlInput1"
+                            <Label for="email">Email</Label>
+                            <input type="text" className="form-control" id="email"
                                 placeholder="john.smith@example.com" />
                         </FormGroup>
 
@@ -23,8 +23,8 @@ const LogIn = () => {
 
 
                         <div className="form-row">
-                            <FormGroup col className="form-group col">
-                                <Label for="Password">Password</Label>
+                            <FormGroup className="form-group col">
+                                <Label for="password">Password</Label>
                                 <input type="text" className="form-control" name="password" id="password"
                                     placeholder="password" />
 
