@@ -34,7 +34,7 @@ const Footer = () => {
             { text: "Task Properties", to: "/" },
         ],
         resources: [
-            { text: "Contact Us", to: "/" },
+            { text: "Contact Us", to: "/contactus" },
             { text: "Guides", to: "/" },
             { text: "Take a Tour", to: "/" },
             { text: "FAQ", to: "/" },
