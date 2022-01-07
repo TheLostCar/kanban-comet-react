@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kanban-comet-react/static/css/main.40073f8e.css",
+    "main.js": "/kanban-comet-react/static/js/main.3aabfbd7.js",
+    "static/js/787.26f2fb14.chunk.js": "/kanban-comet-react/static/js/787.26f2fb14.chunk.js",
+    "static/media/patternOfPeople.jpeg": "/kanban-comet-react/static/media/patternOfPeople.5ba24e0a65de2cdc9b9f.jpeg",
+    "static/media/workflowOrganization.jpeg": "/kanban-comet-react/static/media/workflowOrganization.276929c6a0db938378c8.jpeg",
+    "static/media/programConfiguring.jpeg": "/kanban-comet-react/static/media/programConfiguring.247c6ff8ca63f3f6773a.jpeg",
+    "static/media/timeline.jpeg": "/kanban-comet-react/static/media/timeline.b4a5b4b60480d83ac2a1.jpeg",
+    "static/media/kanbanTeamwork.jpeg": "/kanban-comet-react/static/media/kanbanTeamwork.cd0641cf08bedb5f1a87.jpeg",
+    "static/media/kanbanWorkflow.jpeg": "/kanban-comet-react/static/media/kanbanWorkflow.c3296f61a480041c15cc.jpeg",
+    "static/media/smallBoard.jpeg": "/kanban-comet-react/static/media/smallBoard.d254590c59201dbc212d.jpeg",
+    "static/media/cloudConnect.jpeg": "/kanban-comet-react/static/media/cloudConnect.fe4ef93ac21e8279f948.jpeg",
+    "static/media/logo.svg": "/kanban-comet-react/static/media/logo.42f502d65661b91bdad6689bbc046e02.svg",
+    "index.html": "/kanban-comet-react/index.html",
+    "main.40073f8e.css.map": "/kanban-comet-react/static/css/main.40073f8e.css.map",
+    "main.3aabfbd7.js.map": "/kanban-comet-react/static/js/main.3aabfbd7.js.map",
+    "787.26f2fb14.chunk.js.map": "/kanban-comet-react/static/js/787.26f2fb14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40073f8e.css",
+    "static/js/main.3aabfbd7.js"
+  ]
+}
