@@ -12,7 +12,7 @@ import './App.css'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/kanban-comet-react">
       <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
         <Header />
 
