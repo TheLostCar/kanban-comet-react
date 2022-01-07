@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kanban-comet-react/static/css/main.40073f8e.css",
-    "main.js": "/kanban-comet-react/static/js/main.3aabfbd7.js",
+    "main.js": "/kanban-comet-react/static/js/main.91f04736.js",
     "static/js/787.26f2fb14.chunk.js": "/kanban-comet-react/static/js/787.26f2fb14.chunk.js",
     "static/media/patternOfPeople.jpeg": "/kanban-comet-react/static/media/patternOfPeople.5ba24e0a65de2cdc9b9f.jpeg",
     "static/media/workflowOrganization.jpeg": "/kanban-comet-react/static/media/workflowOrganization.276929c6a0db938378c8.jpeg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/kanban-comet-react/static/media/logo.42f502d65661b91bdad6689bbc046e02.svg",
     "index.html": "/kanban-comet-react/index.html",
     "main.40073f8e.css.map": "/kanban-comet-react/static/css/main.40073f8e.css.map",
-    "main.3aabfbd7.js.map": "/kanban-comet-react/static/js/main.3aabfbd7.js.map",
+    "main.91f04736.js.map": "/kanban-comet-react/static/js/main.91f04736.js.map",
     "787.26f2fb14.chunk.js.map": "/kanban-comet-react/static/js/787.26f2fb14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40073f8e.css",
-    "static/js/main.3aabfbd7.js"
+    "static/js/main.91f04736.js"
   ]
 }
