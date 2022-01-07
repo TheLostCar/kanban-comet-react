@@ -5,14 +5,14 @@ import LandingPageBody from './components/LandingPageBody';
 import SignUp from './components/SignUp';
 import LogIn from './components/LogIn';
 import ContactUs from './components/ContactUs';
-import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+import { HashRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 import './App.css'
 
 
 const App = () => {
   return (
-    <BrowserRouter basename="/kanban-comet-react">
+    <HashRouter basename="/kanban-comet-react">
       <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
         <Header />
 
@@ -27,7 +27,7 @@ const App = () => {
         </Switch>
 
         <Footer /></div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
