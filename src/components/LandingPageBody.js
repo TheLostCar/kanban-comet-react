@@ -1,6 +1,6 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Jumbotron, Button, Container, Col, Row, Card, CardBody, Nav, NavItem, NavLink, TabContent, TabPane } from 'reactstrap';
+import { Jumbotron, Container, Col, Row, Card, CardBody, Nav, NavItem, NavLink, TabContent, TabPane } from 'reactstrap';
 import { cloudConnect, workflowOrganization, patternOfPeople, kanbanWorkflow, programConfiguring, smallBoard, timeline, kanbanTeamwork } from '../assets/images'
 
 
@@ -184,7 +184,7 @@ const CardTabsSection = () => {
             <Nav tabs className="nav-justified px-1 px-sm-5 text-nowrap">
                 <NavItem>
                     <NavLink
-                        active={activeTab == '1'}
+                        active={activeTab === '1'}
                         onClick={() => toggle('1')}
                     >
                         Boards
@@ -194,7 +194,7 @@ const CardTabsSection = () => {
                 <NavItem>
                     <NavLink
 
-                        active={activeTab == "2"}
+                        active={activeTab === "2"}
                         onClick={() => { toggle("2") }}
                     >
                         Timeline
@@ -206,7 +206,7 @@ const CardTabsSection = () => {
 
                 <NavItem>
                     <NavLink
-                        active={activeTab == "3"}
+                        active={activeTab === "3"}
                         onClick={() => { toggle("3") }}
                     >
                         Assign Tasks
